@@ -13,4 +13,5 @@ type Player {
   firstName: String
   lastName: String
   position: String
+  number: String
 }
