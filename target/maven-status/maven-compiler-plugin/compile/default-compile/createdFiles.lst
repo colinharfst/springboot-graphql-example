@@ -1,0 +1,6 @@
+com\example\springboot\Application.class
+com\example\graphql\baseballdetails\GraphQLDataFetchers.class
+com\example\graphql\baseballdetails\GraphQLProvider.class
+com\example\graphql\baseballdetails\Team.class
+com\example\graphql\baseballdetails\BaseballDetailsApplication.class
+com\example\springboot\HelloController.class
