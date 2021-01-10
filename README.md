@@ -1,2 +1,17 @@
-# springboot-graphql-example
-A little project to play with GraphQL in Java.
+To run project: `./mvnw spring-boot:run`
+
+To run query: POST to `localhost:8080/graphql` with body
+```
+{
+    teamByName(name: "Yankees") {
+        id
+        name
+        players {
+            firstName
+            lastName
+            position
+            number
+        }
+    }
+}
+```
